@@ -23,3 +23,6 @@ if (!$oldversion) {
     // Set new version
     elgg_set_plugin_setting('version', '1.8.5', 'elggx_userpoints');
 }
+
+// make sure we have default settings
+elggx_fivestar_settings();

@@ -14,13 +14,12 @@ $english = array(
     'elggx_fivestar:rating_saved' => 'Rating Saved',
     'elggx_fivestar:settings:view_heading'  => 'Views Configuration',
     'elggx_fivestar:settings:change_cancel' => 'Allow users to change or cancel their votes? ',
-    'elggx_fivestar:settings:yes'           => 'Yes',
-    'elggx_fivestar:settings:no'            => 'No',
     'elggx_fivestar:settings:add_view'      => 'Add View',
     'elggx_fivestar:settings:remove_view'   => ' Remove',
     'elggx_fivestar:settings:save:ok'       => 'Successfully saved the Fivestar plugin settings.',
     'elggx_fivestar:settings:defaults'      => 'Set / Reset default views',
     'elggx_fivestar:settings:defaults:confirm' => 'Are you sure you want to set / reset the default views?',
+    'elggx_fivestar:settings:show_hide' => 'Show/hide',
 );
 
 add_translation("en", $english);

@@ -155,9 +155,14 @@
 			return;
 		}
 	
-		// different output for widgets
-		if (elgg_in_context("widgets")) {
-			$widget = elgg_view("elggx_fivestar/voting", array("fivestar_guid" => $guid, "min" => true));
+		// different output for some contexts
+		if (elgg_in_context("admin")) {
+			// no extra's here
+			return;
+		} elseif (elgg_in_context("widgets")) {
+			// 2013-06-25: for now disable extension in widgets
+			return;
+// 			$widget = elgg_view("elggx_fivestar/voting", array("fivestar_guid" => $guid, "min" => true));
 		} else {
 			$widget = elgg_view("elggx_fivestar/voting", array("fivestar_guid" => $guid));
 		}
